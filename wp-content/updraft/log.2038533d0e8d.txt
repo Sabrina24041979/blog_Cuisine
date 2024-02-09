@@ -1,0 +1,591 @@
+0000.000 (0) Opened log file at time: Wed, 31 Jan 2024 13:29:04 +0000 on http://localhost/wp-dev
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.3 PHP: 8.2.11 (apache2handler, Windows NT STE-CM04-SG05 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.10-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.41 (Win64) PHP/8.2.11 mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.4M | 30M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 4783.8 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2024-01-31 13:29:04
+0000.015 (0) Semaphore lock (fd) complete
+0000.018 (0) Backup run: resumption=0, nonce=2038533d0e8d, file_nonce=2038533d0e8d begun at=1706707744 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1706708044) in case this run gets aborted
+0000.025 (0) Checking if we have a zip executable available
+0000.027 (0) Creation of backups of directories: beginning
+0000.030 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.560 (0) Total entities for the zip file: 1563 directories, 8347 files (0 skipped as non-modified), 111.2 MB
+0003.570 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.764 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 100 files added (on-disk size: 296.6 KB)
+0003.867 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 200 files added (on-disk size: 296.6 KB)
+0003.999 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 300 files added (on-disk size: 296.6 KB)
+0004.109 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 400 files added (on-disk size: 296.6 KB)
+0004.219 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 500 files added (on-disk size: 296.6 KB)
+0004.342 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 600 files added (on-disk size: 296.6 KB)
+0004.451 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 700 files added (on-disk size: 296.6 KB)
+0004.563 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 800 files added (on-disk size: 296.6 KB)
+0004.680 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 900 files added (on-disk size: 296.6 KB)
+0004.799 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1000 files added (on-disk size: 296.6 KB)
+0004.802 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.9 MB, 8347 files batched, 1001 (1002) added so far); re-opening (prior size: 296.6 KB)
+0006.081 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1100 files added (on-disk size: 6854 KB)
+0006.182 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1200 files added (on-disk size: 6854 KB)
+0006.290 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1300 files added (on-disk size: 6854 KB)
+0006.396 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1400 files added (on-disk size: 6854 KB)
+0006.507 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1500 files added (on-disk size: 6854 KB)
+0006.619 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1600 files added (on-disk size: 6854 KB)
+0006.734 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1700 files added (on-disk size: 6854 KB)
+0006.850 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1800 files added (on-disk size: 6854 KB)
+0006.969 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 1900 files added (on-disk size: 6854 KB)
+0007.081 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2000 files added (on-disk size: 6854 KB)
+0007.086 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.6 MB, 8347 files batched, 1001 (2003) added so far); re-opening (prior size: 6854 KB)
+0009.801 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2100 files added (on-disk size: 13124.8 KB)
+0009.913 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2200 files added (on-disk size: 13124.8 KB)
+0010.016 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2300 files added (on-disk size: 13124.8 KB)
+0010.119 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2400 files added (on-disk size: 13124.8 KB)
+0010.228 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2500 files added (on-disk size: 13124.8 KB)
+0010.334 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2600 files added (on-disk size: 13124.8 KB)
+0010.440 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2700 files added (on-disk size: 13124.8 KB)
+0010.550 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2800 files added (on-disk size: 13124.8 KB)
+0010.664 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 2900 files added (on-disk size: 13124.8 KB)
+0010.778 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3000 files added (on-disk size: 13124.8 KB)
+0010.782 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.7 MB, 8347 files batched, 1001 (3004) added so far); re-opening (prior size: 13124.8 KB)
+0012.299 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3100 files added (on-disk size: 16902.3 KB)
+0012.432 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3200 files added (on-disk size: 16902.3 KB)
+0012.567 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3300 files added (on-disk size: 16902.3 KB)
+0012.697 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3400 files added (on-disk size: 16902.3 KB)
+0012.806 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3500 files added (on-disk size: 16902.3 KB)
+0012.910 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3600 files added (on-disk size: 16902.3 KB)
+0013.030 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3700 files added (on-disk size: 16902.3 KB)
+0013.130 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3800 files added (on-disk size: 16902.3 KB)
+0013.247 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 3900 files added (on-disk size: 16902.3 KB)
+0013.362 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4000 files added (on-disk size: 16902.3 KB)
+0013.370 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.1 MB, 8347 files batched, 1001 (4005) added so far); re-opening (prior size: 16902.3 KB)
+0014.391 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4100 files added (on-disk size: 29652.7 KB)
+0014.503 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4200 files added (on-disk size: 29652.7 KB)
+0014.623 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4300 files added (on-disk size: 29652.7 KB)
+0014.754 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4400 files added (on-disk size: 29652.7 KB)
+0014.880 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4500 files added (on-disk size: 29652.7 KB)
+0014.989 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4600 files added (on-disk size: 29652.7 KB)
+0015.112 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4700 files added (on-disk size: 29652.7 KB)
+0015.239 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4800 files added (on-disk size: 29652.7 KB)
+0015.361 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 4900 files added (on-disk size: 29652.7 KB)
+0015.475 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5000 files added (on-disk size: 29652.7 KB)
+0015.483 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.4 MB, 8347 files batched, 1001 (5006) added so far); re-opening (prior size: 29652.7 KB)
+0017.107 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5100 files added (on-disk size: 32480.2 KB)
+0017.229 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5200 files added (on-disk size: 32480.2 KB)
+0017.355 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5300 files added (on-disk size: 32480.2 KB)
+0017.493 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5400 files added (on-disk size: 32480.2 KB)
+0017.606 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5500 files added (on-disk size: 32480.2 KB)
+0017.711 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5600 files added (on-disk size: 32480.2 KB)
+0017.829 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5700 files added (on-disk size: 32480.2 KB)
+0017.949 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5800 files added (on-disk size: 32480.2 KB)
+0018.059 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 5900 files added (on-disk size: 32480.2 KB)
+0018.182 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6000 files added (on-disk size: 32480.2 KB)
+0018.192 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.7 MB, 8347 files batched, 1001 (6007) added so far); re-opening (prior size: 32480.2 KB)
+0019.170 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6100 files added (on-disk size: 34016.6 KB)
+0019.283 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6200 files added (on-disk size: 34016.6 KB)
+0019.394 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6300 files added (on-disk size: 34016.6 KB)
+0019.492 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6400 files added (on-disk size: 34016.6 KB)
+0019.610 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6500 files added (on-disk size: 34016.6 KB)
+0019.727 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6600 files added (on-disk size: 34016.6 KB)
+0019.863 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6700 files added (on-disk size: 34016.6 KB)
+0020.042 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6800 files added (on-disk size: 34016.6 KB)
+0020.187 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 6900 files added (on-disk size: 34016.6 KB)
+0020.310 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7000 files added (on-disk size: 34016.6 KB)
+0020.324 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.1 MB, 8347 files batched, 1001 (7008) added so far); re-opening (prior size: 34016.6 KB)
+0022.256 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7100 files added (on-disk size: 38083.3 KB)
+0022.372 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7200 files added (on-disk size: 38083.3 KB)
+0022.491 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7300 files added (on-disk size: 38083.3 KB)
+0022.602 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7400 files added (on-disk size: 38083.3 KB)
+0022.714 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7500 files added (on-disk size: 38083.3 KB)
+0022.826 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7600 files added (on-disk size: 38083.3 KB)
+0022.925 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7700 files added (on-disk size: 38083.3 KB)
+0023.035 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7800 files added (on-disk size: 38083.3 KB)
+0023.143 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 7900 files added (on-disk size: 38083.3 KB)
+0023.245 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 8000 files added (on-disk size: 38083.3 KB)
+0023.256 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.9 MB, 8347 files batched, 1001 (8009) added so far); re-opening (prior size: 38083.3 KB)
+0025.951 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 8100 files added (on-disk size: 43331.6 KB)
+0026.068 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 8200 files added (on-disk size: 43331.6 KB)
+0026.189 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.tmp: 8300 files added (on-disk size: 43331.6 KB)
+0027.400 (0) Creating zip file manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.list-temp.tmp)
+0027.493 (0) Successfully created zip file manifest (size: 745499)
+0028.378 (0) Created plugins zip (0) - 44223.4 KB in 28.3 s (1560.4 KB/s) (sha1: b9b3ab555e35a24837f38fdb1b86ce52c7f1f7b5, sha256: 6f4c3a50e25a039b60b9aca8e63176f70129bcbabb67599f903bb393f9eaee02)
+0028.390 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0028.391 (0) No remote despatch: user chose no remote backup service
+0028.391 (0) Recording as successfully uploaded: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip
+0028.393 (0) Deleting zip manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip.list.tmp)
+0028.401 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0028.402 (0) Number of backup sets in history: 2; groups (db): 1
+0028.402 (0) Examining (for databases) backup set with group_id=0, nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0028.403 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.403 (0) Examining (for databases) backup set with group_id=0, nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0028.403 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.404 (0) Number of backup sets in history: 2; groups (files): 1
+0028.404 (0) Examining (for files) backup set with nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0028.404 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.404 (0) Examining (for files) backup set with nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0028.404 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.405 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0028.411 (0) Beginning creation of dump of themes (split every: 400 MB)
+0028.705 (0) Total entities for the zip file: 84 directories, 554 files (0 skipped as non-modified), 19.4 MB
+0028.810 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0028.921 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0029.023 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0029.135 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0029.245 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0030.521 (0) Creating zip file manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip.list-temp.tmp)
+0030.532 (0) Successfully created zip file manifest (size: 40012)
+0030.738 (0) Created themes zip (0) - 16128.4 KB in 2.3 s (6964.8 KB/s) (sha1: ee1417f965e629c39649bc4a8aed3b61de6f549e, sha256: 08fa8d39a74ea4dbb61553ce356b55307f31c2c0d1b691fa9efdaf001ee18e45)
+0030.743 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.744 (0) No remote despatch: user chose no remote backup service
+0030.746 (0) Recording as successfully uploaded: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip
+0030.748 (0) Deleting zip manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip.list.tmp)
+0030.751 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0030.753 (0) Number of backup sets in history: 2; groups (db): 1
+0030.753 (0) Examining (for databases) backup set with group_id=0, nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0030.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.754 (0) Examining (for databases) backup set with group_id=0, nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0030.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.754 (0) Number of backup sets in history: 2; groups (files): 1
+0030.755 (0) Examining (for files) backup set with nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0030.755 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.755 (0) Examining (for files) backup set with nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0030.755 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.755 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0030.764 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0030.765 (0) Looking for candidates to backup in: C:\wamp64\www\wp-dev/wp-content/uploads
+0030.767 (0) finding files: 2024: adding to list (1)
+0030.768 (0) finding files: wc-logs: adding to list (2)
+0030.769 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (3)
+0030.769 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (4)
+0030.770 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (5)
+0030.771 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (6)
+0030.771 (0) finding files: woocommerce-placeholder-324x324.png: adding to list (7)
+0030.772 (0) finding files: woocommerce-placeholder-416x416.png: adding to list (8)
+0030.773 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (9)
+0030.773 (0) finding files: woocommerce-placeholder.png: adding to list (10)
+0030.774 (0) finding files: woocommerce_uploads: adding to list (11)
+0030.775 (0) finding files: wpcf7_uploads: adding to list (12)
+0030.777 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0030.929 (0) Total entities for the zip file: 5 directories, 548 files (0 skipped as non-modified), 23.3 MB
+0031.032 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0031.147 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0031.227 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0031.306 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0031.389 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0031.899 (0) Creating zip file manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip.list-temp.tmp)
+0031.905 (0) Successfully created zip file manifest (size: 32752)
+0032.274 (0) Created uploads zip (0) - 23958.3 KB in 1.5 s (16121.3 KB/s) (sha1: 2b2722d2bb836220ea6c573440a6407e2a78f1c0, sha256: 8e78bfe9594ec972efd65e89a42f811870f357056281576a1eaf7edf72c401be)
+0032.283 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0032.284 (0) No remote despatch: user chose no remote backup service
+0032.285 (0) Recording as successfully uploaded: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip
+0032.286 (0) Deleting zip manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip.list.tmp)
+0032.288 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0032.290 (0) Number of backup sets in history: 2; groups (db): 1
+0032.290 (0) Examining (for databases) backup set with group_id=0, nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0032.291 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.293 (0) Examining (for databases) backup set with group_id=0, nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0032.293 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.294 (0) Number of backup sets in history: 2; groups (files): 1
+0032.295 (0) Examining (for files) backup set with nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0032.295 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.297 (0) Examining (for files) backup set with nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0032.297 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.297 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0032.302 (0) No backup of mu-plugins: excluded by user's options
+0032.303 (0) Beginning backup of other directories found in the content directory (index: 0)
+0032.304 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0032.305 (0) Looking for candidates to backup in: C:\wamp64\www\wp-dev/wp-content
+0032.306 (0) finding files: index.php: adding to list (1)
+0032.307 (0) finding files: languages: adding to list (2)
+0032.307 (0) finding files: plugins: skipping: this is the plugins directory
+0032.308 (0) finding files: themes: skipping: this is the themes directory
+0032.309 (0) finding files: updraft: skipping: this is the updraft directory
+0032.310 (0) finding files: upgrade: skipping: excluded by options
+0032.312 (0) finding files: upgrade-temp-backup: adding to list (3)
+0032.313 (0) finding files: uploads: skipping: this is the uploads directory
+0032.503 (0) Total entities for the zip file: 5 directories, 487 files (0 skipped as non-modified), 8.5 MB
+0032.630 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0032.720 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0032.810 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0032.889 (0) Zip: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0034.042 (0) Creating zip file manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip.list-temp.tmp)
+0034.051 (0) Successfully created zip file manifest (size: 39689)
+0034.103 (0) Created others zip (0) - 2507.6 KB in 1.8 s (1404.8 KB/s) (sha1: d3c28868b959e18df68cbe022207143d7228ce8f, sha256: fc5b39d51efb515f6b7c1ca043f5ff7dde3544205d36af0e8b788c54189e648b)
+0034.108 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0034.110 (0) No remote despatch: user chose no remote backup service
+0034.112 (0) Recording as successfully uploaded: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip
+0034.115 (0) Deleting zip manifest (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip.list.tmp)
+0034.118 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0034.120 (0) Number of backup sets in history: 2; groups (db): 1
+0034.121 (0) Examining (for databases) backup set with group_id=0, nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0034.121 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.122 (0) Examining (for databases) backup set with group_id=0, nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0034.122 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.122 (0) Number of backup sets in history: 2; groups (files): 1
+0034.122 (0) Examining (for files) backup set with nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0034.122 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.123 (0) Examining (for files) backup set with nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0034.123 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.123 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0034.134 (0) Saving backup status to database (elements: 8)
+0034.137 (0) Beginning creation of database dump (WordPress DB)
+0034.138 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0034.143 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe
+0034.279 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `hy8tpafmoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 (truncated - 1573 bytes total)
+0034.280 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe"
+0034.303 (0) Table hy8tpafmoptions: Total expected rows (via COUNT): 570
+0034.363 (0) Table hy8tpafmoptions: Rows added in this batch (next record: 2478): 564 (uncompressed bytes in this segment=2171696) in 0.07 seconds
+0034.375 (0) Table hy8tpafmoptions: finishing file(s) (2, 250.6 KB)
+0034.389 (0) Table hy8tpafmusers: Total expected rows (via COUNT): 1
+0034.390 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.394 (0) Table hy8tpafmusers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1472) in 0.01 seconds
+0034.404 (0) Table hy8tpafmusers: finishing file(s) (2, 0.6 KB)
+0034.418 (0) Table hy8tpafmusermeta: Total expected rows (via COUNT): 45
+0034.418 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.422 (0) Table hy8tpafmusermeta: Rows added in this batch (next record: 49): 45 (uncompressed bytes in this segment=4315) in 0.01 seconds
+0034.435 (0) Table hy8tpafmusermeta: finishing file(s) (2, 1.9 KB)
+0034.447 (0) Table hy8tpafmactionscheduler_actions: Total expected rows (via COUNT): 55
+0034.448 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.453 (0) Table hy8tpafmactionscheduler_actions: Rows added in this batch (next record: 278): 55 (uncompressed bytes in this segment=21004) in 0.01 seconds
+0034.466 (0) Table hy8tpafmactionscheduler_actions: finishing file(s) (2, 2.4 KB)
+0034.477 (0) Table hy8tpafmactionscheduler_claims: Total expected rows (via COUNT): 0
+0034.481 (0) Table hy8tpafmactionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=656) in 0.01 seconds
+0034.491 (0) Table hy8tpafmactionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0034.504 (0) Table hy8tpafmactionscheduler_groups: Total expected rows (via COUNT): 5
+0034.506 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.509 (0) Table hy8tpafmactionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=830) in 0.01 seconds
+0034.519 (0) Table hy8tpafmactionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0034.532 (0) Table hy8tpafmactionscheduler_logs: Total expected rows (via COUNT): 163
+0034.533 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.539 (0) Table hy8tpafmactionscheduler_logs: Rows added in this batch (next record: 163): 163 (uncompressed bytes in this segment=14992) in 0.01 seconds
+0034.551 (0) Table hy8tpafmactionscheduler_logs: finishing file(s) (2, 2.2 KB)
+0034.563 (0) Table hy8tpafmcommentmeta: Total expected rows (via COUNT): 0
+0034.565 (0) Table hy8tpafmcommentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=726) in 0.01 seconds
+0034.575 (0) Table hy8tpafmcommentmeta: finishing file(s) (2, 0.4 KB)
+0034.586 (0) Table hy8tpafmcomments: Total expected rows (via COUNT): 8
+0034.588 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.591 (0) Table hy8tpafmcomments: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=3817) in 0.01 seconds
+0034.602 (0) Table hy8tpafmcomments: finishing file(s) (2, 1.1 KB)
+0034.613 (0) Table hy8tpafmlinks: Total expected rows (via COUNT): 0
+0034.616 (0) Table hy8tpafmlinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1336) in 0.01 seconds
+0034.630 (0) Table hy8tpafmlinks: finishing file(s) (2, 0.5 KB)
+0034.642 (0) Table hy8tpafmpostmeta: Total expected rows (via COUNT): 898
+0034.643 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.670 (0) Table hy8tpafmpostmeta: Rows added in this batch (next record: 1138): 898 (uncompressed bytes in this segment=180846) in 0.03 seconds
+0034.686 (0) Table hy8tpafmpostmeta: finishing file(s) (2, 20.8 KB)
+0034.697 (0) Table hy8tpafmposts: Total expected rows (via COUNT): 221
+0034.698 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.735 (0) Table hy8tpafmposts: Rows added in this batch (next record: 259): 221 (uncompressed bytes in this segment=429203) in 0.05 seconds
+0034.749 (0) Table hy8tpafmposts: finishing file(s) (2, 51.3 KB)
+0034.755 (0) Table hy8tpafmterm_relationships: Total expected rows (approximate): 57
+0034.758 (0) Table hy8tpafmterm_relationships: Rows added in this batch (next record: 100000): 57 (uncompressed bytes in this segment=1520) in 0.01 seconds
+0034.770 (0) Table hy8tpafmterm_relationships: finishing file(s) (2, 0.6 KB)
+0034.783 (0) Table hy8tpafmterm_taxonomy: Total expected rows (via COUNT): 35
+0034.783 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.787 (0) Table hy8tpafmterm_taxonomy: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=2233) in 0.01 seconds
+0034.799 (0) Table hy8tpafmterm_taxonomy: finishing file(s) (2, 0.7 KB)
+0034.812 (0) Table hy8tpafmtermmeta: Total expected rows (via COUNT): 5
+0034.813 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.815 (0) Table hy8tpafmtermmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=954) in 0.01 seconds
+0034.824 (0) Table hy8tpafmtermmeta: finishing file(s) (2, 0.5 KB)
+0034.836 (0) Table hy8tpafmterms: Total expected rows (via COUNT): 35
+0034.837 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.842 (0) Table hy8tpafmterms: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=2157) in 0.01 seconds
+0034.853 (0) Table hy8tpafmterms: finishing file(s) (2, 0.9 KB)
+0034.863 (0) Table hy8tpafmwc_category_lookup: Total expected rows (approximate): 2
+0034.865 (0) Table hy8tpafmwc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=635) in 0.01 seconds
+0034.874 (0) Table hy8tpafmwc_category_lookup: finishing file(s) (2, 0.4 KB)
+0034.886 (0) Table hy8tpafmwc_product_meta_lookup: Total expected rows (via COUNT): 14
+0034.887 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.891 (0) Table hy8tpafmwc_product_meta_lookup: Rows added in this batch (next record: 249): 14 (uncompressed bytes in this segment=2724) in 0.01 seconds
+0034.902 (0) Table hy8tpafmwc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0034.913 (0) Table hy8tpafmwc_reserved_stock: Total expected rows (approximate): 0
+0034.916 (0) Table hy8tpafmwc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=693) in 0.01 seconds
+0034.927 (0) Table hy8tpafmwc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0034.938 (0) Table hy8tpafmwc_tax_rate_classes: Total expected rows (via COUNT): 2
+0034.939 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.942 (0) Table hy8tpafmwc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=847) in 0.01 seconds
+0034.953 (0) Table hy8tpafmwc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0034.966 (0) Table hy8tpafmwoocommerce_order_itemmeta: Total expected rows (via COUNT): 87
+0034.967 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.972 (0) Table hy8tpafmwoocommerce_order_itemmeta: Rows added in this batch (next record: 315): 87 (uncompressed bytes in this segment=4265) in 0.01 seconds
+0034.986 (0) Table hy8tpafmwoocommerce_order_itemmeta: finishing file(s) (2, 1.2 KB)
+0034.997 (0) Table hy8tpafmwoocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0034.999 (0) Table hy8tpafmwoocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.01 seconds
+0035.008 (0) Table hy8tpafmwoocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0035.021 (0) Table hy8tpafmsib_model_forms: Total expected rows (via COUNT): 1
+0035.022 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.025 (0) Table hy8tpafmsib_model_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3714) in 0.01 seconds
+0035.037 (0) Table hy8tpafmsib_model_forms: finishing file(s) (2, 1.2 KB)
+0035.048 (0) Table hy8tpafmsib_model_users: Total expected rows (via COUNT): 0
+0035.050 (0) Table hy8tpafmsib_model_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.01 seconds
+0035.090 (0) Table hy8tpafmsib_model_users: finishing file(s) (2, 0.4 KB)
+0035.103 (0) Table hy8tpafmwc_admin_note_actions: Total expected rows (via COUNT): 103
+0035.104 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.109 (0) Table hy8tpafmwc_admin_note_actions: Rows added in this batch (next record: 1132): 103 (uncompressed bytes in this segment=19388) in 0.01 seconds
+0035.119 (0) Table hy8tpafmwc_admin_note_actions: finishing file(s) (2, 3.2 KB)
+0035.131 (0) Table hy8tpafmwc_admin_notes: Total expected rows (via COUNT): 71
+0035.132 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.139 (0) Table hy8tpafmwc_admin_notes: Rows added in this batch (next record: 71): 71 (uncompressed bytes in this segment=34634) in 0.01 seconds
+0035.151 (0) Table hy8tpafmwc_admin_notes: finishing file(s) (2, 7.5 KB)
+0035.162 (0) Table hy8tpafmwc_customer_lookup: Total expected rows (via COUNT): 1
+0035.163 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.165 (0) Table hy8tpafmwc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1498) in 0.01 seconds
+0035.172 (0) Table hy8tpafmwc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0035.183 (0) Table hy8tpafmwc_download_log: Total expected rows (via COUNT): 0
+0035.185 (0) Table hy8tpafmwc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=777) in 0.00 seconds
+0035.198 (0) Table hy8tpafmwc_download_log: finishing file(s) (2, 0.4 KB)
+0035.207 (0) Table hy8tpafmwc_etransactions_cards: Total expected rows (via COUNT): 18
+0035.209 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.213 (0) Table hy8tpafmwc_etransactions_cards: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2886) in 0.01 seconds
+0035.223 (0) Table hy8tpafmwc_etransactions_cards: finishing file(s) (2, 0.8 KB)
+0035.233 (0) Table hy8tpafmwc_etransactions_payment: Total expected rows (via COUNT): 0
+0035.235 (0) Table hy8tpafmwc_etransactions_payment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=682) in 0.00 seconds
+0035.248 (0) Table hy8tpafmwc_etransactions_payment: finishing file(s) (2, 0.4 KB)
+0035.254 (0) Table hy8tpafmwc_order_addresses: Total expected rows (via COUNT): 10
+0035.255 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.257 (0) Table hy8tpafmwc_order_addresses: Rows added in this batch (next record: 12): 10 (uncompressed bytes in this segment=2867) in 0.01 seconds
+0035.268 (0) Table hy8tpafmwc_order_addresses: finishing file(s) (2, 0.7 KB)
+0035.277 (0) Table hy8tpafmwc_order_coupon_lookup: Total expected rows (approximate): 0
+0035.280 (0) Table hy8tpafmwc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=745) in 0.01 seconds
+0035.288 (0) Table hy8tpafmwc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0035.299 (0) Table hy8tpafmwc_order_operational_data: Total expected rows (via COUNT): 5
+0035.299 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.302 (0) Table hy8tpafmwc_order_operational_data: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=2567) in 0.01 seconds
+0035.310 (0) Table hy8tpafmwc_order_operational_data: finishing file(s) (2, 0.9 KB)
+0035.321 (0) Table hy8tpafmwc_order_product_lookup: Total expected rows (via COUNT): 5
+0035.321 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.322 (0) Table hy8tpafmwc_order_product_lookup: Rows added in this batch (next record: 42): 5 (uncompressed bytes in this segment=1728) in 0.01 seconds
+0035.333 (0) Table hy8tpafmwc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0035.339 (0) Table hy8tpafmwc_order_stats: Total expected rows (via COUNT): 5
+0035.340 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.342 (0) Table hy8tpafmwc_order_stats: Rows added in this batch (next record: 257): 5 (uncompressed bytes in this segment=1950) in 0.01 seconds
+0035.351 (0) Table hy8tpafmwc_order_stats: finishing file(s) (2, 0.7 KB)
+0035.364 (0) Table hy8tpafmwc_order_tax_lookup: Total expected rows (approximate): 4
+0035.366 (0) Table hy8tpafmwc_order_tax_lookup: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1092) in 0.01 seconds
+0035.374 (0) Table hy8tpafmwc_order_tax_lookup: finishing file(s) (2, 0.5 KB)
+0035.387 (0) Table hy8tpafmwc_orders: Total expected rows (via COUNT): 5
+0035.388 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.391 (0) Table hy8tpafmwc_orders: Rows added in this batch (next record: 257): 5 (uncompressed bytes in this segment=3213) in 0.01 seconds
+0035.402 (0) Table hy8tpafmwc_orders: finishing file(s) (2, 0.9 KB)
+0035.413 (0) Table hy8tpafmwc_orders_meta: Total expected rows (via COUNT): 60
+0035.414 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.417 (0) Table hy8tpafmwc_orders_meta: Rows added in this batch (next record: 67): 60 (uncompressed bytes in this segment=5300) in 0.01 seconds
+0035.427 (0) Table hy8tpafmwc_orders_meta: finishing file(s) (2, 1.2 KB)
+0035.436 (0) Table hy8tpafmwc_product_attributes_lookup: Total expected rows (approximate): 0
+0035.438 (0) Table hy8tpafmwc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=892) in 0.00 seconds
+0035.453 (0) Table hy8tpafmwc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0035.465 (0) Table hy8tpafmwc_product_download_directories: Total expected rows (via COUNT): 2
+0035.466 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.468 (0) Table hy8tpafmwc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=943) in 0.01 seconds
+0035.481 (0) Table hy8tpafmwc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0035.488 (0) Table hy8tpafmwc_rate_limits: Total expected rows (via COUNT): 0
+0035.491 (0) Table hy8tpafmwc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0035.503 (0) Table hy8tpafmwc_rate_limits: finishing file(s) (2, 0.4 KB)
+0035.514 (0) Table hy8tpafmwc_webhooks: Total expected rows (via COUNT): 0
+0035.515 (0) Table hy8tpafmwc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1256) in 0.01 seconds
+0035.525 (0) Table hy8tpafmwc_webhooks: finishing file(s) (2, 0.5 KB)
+0035.537 (0) Table hy8tpafmwoocommerce_api_keys: Total expected rows (via COUNT): 0
+0035.538 (0) Table hy8tpafmwoocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1089) in 0.01 seconds
+0035.552 (0) Table hy8tpafmwoocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0035.562 (0) Table hy8tpafmwoocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0035.563 (0) Table hy8tpafmwoocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=989) in 0.01 seconds
+0035.575 (0) Table hy8tpafmwoocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0035.586 (0) Table hy8tpafmwoocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0035.587 (0) Table hy8tpafmwoocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1564) in 0.00 seconds
+0035.601 (0) Table hy8tpafmwoocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0035.613 (0) Table hy8tpafmwoocommerce_log: Total expected rows (via COUNT): 0
+0035.614 (0) Table hy8tpafmwoocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.01 seconds
+0035.623 (0) Table hy8tpafmwoocommerce_log: finishing file(s) (2, 0.4 KB)
+0035.635 (0) Table hy8tpafmwoocommerce_order_items: Total expected rows (via COUNT): 12
+0035.636 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.638 (0) Table hy8tpafmwoocommerce_order_items: Rows added in this batch (next record: 47): 12 (uncompressed bytes in this segment=1334) in 0.01 seconds
+0035.651 (0) Table hy8tpafmwoocommerce_order_items: finishing file(s) (2, 0.5 KB)
+0035.662 (0) Table hy8tpafmwoocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0035.665 (0) Table hy8tpafmwoocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=867) in 0.01 seconds
+0035.672 (0) Table hy8tpafmwoocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0035.685 (0) Table hy8tpafmwoocommerce_sessions: Total expected rows (via COUNT): 2
+0035.685 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.687 (0) Table hy8tpafmwoocommerce_sessions: Rows added in this batch (next record: 5): 2 (uncompressed bytes in this segment=4803) in 0.01 seconds
+0035.702 (0) Table hy8tpafmwoocommerce_sessions: finishing file(s) (2, 1.5 KB)
+0035.713 (0) Table hy8tpafmwoocommerce_shipping_zone_locations: Total expected rows (via COUNT): 8
+0035.713 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.714 (0) Table hy8tpafmwoocommerce_shipping_zone_locations: Rows added in this batch (next record: 15): 8 (uncompressed bytes in this segment=1215) in 0.01 seconds
+0035.723 (0) Table hy8tpafmwoocommerce_shipping_zone_locations: finishing file(s) (2, 0.5 KB)
+0035.739 (0) Table hy8tpafmwoocommerce_shipping_zone_methods: Total expected rows (via COUNT): 4
+0035.739 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.746 (0) Table hy8tpafmwoocommerce_shipping_zone_methods: Rows added in this batch (next record: 8): 4 (uncompressed bytes in this segment=1002) in 0.01 seconds
+0035.758 (0) Table hy8tpafmwoocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0035.771 (0) Table hy8tpafmwoocommerce_shipping_zones: Total expected rows (via COUNT): 2
+0035.772 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.773 (0) Table hy8tpafmwoocommerce_shipping_zones: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=792) in 0.00 seconds
+0035.789 (0) Table hy8tpafmwoocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0035.802 (0) Table hy8tpafmwoocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0035.804 (0) Table hy8tpafmwoocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.00 seconds
+0035.818 (0) Table hy8tpafmwoocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0035.831 (0) Table hy8tpafmwoocommerce_tax_rates: Total expected rows (via COUNT): 3
+0035.832 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.834 (0) Table hy8tpafmwoocommerce_tax_rates: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1537) in 0.01 seconds
+0035.848 (0) Table hy8tpafmwoocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0035.850 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\wamp64\www\wp-dev/wp-content/updraft/backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db.gz (line 1976, C:\wamp64\www\wp-dev\wp-content\plugins\updraftplus\backup.php)
+0035.854 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmoptions.table.tmpr2479.gz (1/54/fopen): adding to final database dump
+0035.868 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmoptions.table.gz (2/54/fopen): adding to final database dump
+0035.869 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmusers.table.tmpr2.gz (3/54/fopen): adding to final database dump
+0035.870 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmusers.table.gz (4/54/fopen): adding to final database dump
+0035.871 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmusermeta.table.tmpr50.gz (5/54/fopen): adding to final database dump
+0035.871 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmusermeta.table.gz (6/54/fopen): adding to final database dump
+0035.872 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_actions.table.tmpr279.gz (7/54/fopen): adding to final database dump
+0035.873 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_actions.table.gz (8/54/fopen): adding to final database dump
+0035.874 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_claims.table.tmpr0.gz (9/54/fopen): adding to final database dump
+0035.876 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_claims.table.gz (10/54/fopen): adding to final database dump
+0035.879 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_groups.table.tmpr6.gz (11/54/fopen): adding to final database dump
+0035.880 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_groups.table.gz (12/54/fopen): adding to final database dump
+0035.881 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_logs.table.tmpr164.gz (13/54/fopen): adding to final database dump
+0035.881 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmactionscheduler_logs.table.gz (14/54/fopen): adding to final database dump
+0035.882 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmcommentmeta.table.tmpr0.gz (15/54/fopen): adding to final database dump
+0035.883 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmcommentmeta.table.gz (16/54/fopen): adding to final database dump
+0035.883 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmcomments.table.tmpr9.gz (17/54/fopen): adding to final database dump
+0035.884 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmcomments.table.gz (18/54/fopen): adding to final database dump
+0035.884 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmlinks.table.tmpr0.gz (19/54/fopen): adding to final database dump
+0035.885 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmlinks.table.gz (20/54/fopen): adding to final database dump
+0035.886 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmpostmeta.table.tmpr1139.gz (21/54/fopen): adding to final database dump
+0035.887 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmpostmeta.table.gz (22/54/fopen): adding to final database dump
+0035.888 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmposts.table.tmpr260.gz (23/54/fopen): adding to final database dump
+0035.890 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmposts.table.gz (24/54/fopen): adding to final database dump
+0035.892 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmterm_relationships.table.tmpr100001.gz (25/54/fopen): adding to final database dump
+0035.894 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmterm_relationships.table.gz (26/54/fopen): adding to final database dump
+0035.896 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmterm_taxonomy.table.tmpr36.gz (27/54/fopen): adding to final database dump
+0035.897 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmterm_taxonomy.table.gz (28/54/fopen): adding to final database dump
+0035.897 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmtermmeta.table.tmpr6.gz (29/54/fopen): adding to final database dump
+0035.898 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmtermmeta.table.gz (30/54/fopen): adding to final database dump
+0035.898 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmterms.table.tmpr36.gz (31/54/fopen): adding to final database dump
+0035.899 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmterms.table.gz (32/54/fopen): adding to final database dump
+0035.900 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_category_lookup.table.tmpr1001.gz (33/54/fopen): adding to final database dump
+0035.900 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_category_lookup.table.gz (34/54/fopen): adding to final database dump
+0035.901 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_product_meta_lookup.table.tmpr250.gz (35/54/fopen): adding to final database dump
+0035.902 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_product_meta_lookup.table.gz (36/54/fopen): adding to final database dump
+0035.903 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_reserved_stock.table.tmpr1.gz (37/54/fopen): adding to final database dump
+0035.903 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_reserved_stock.table.gz (38/54/fopen): adding to final database dump
+0035.904 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_tax_rate_classes.table.tmpr3.gz (39/54/fopen): adding to final database dump
+0035.905 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_tax_rate_classes.table.gz (40/54/fopen): adding to final database dump
+0035.906 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_order_itemmeta.table.tmpr316.gz (41/54/fopen): adding to final database dump
+0035.906 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_order_itemmeta.table.gz (42/54/fopen): adding to final database dump
+0035.908 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_payment_tokenmeta.table.tmpr0.gz (43/54/fopen): adding to final database dump
+0035.910 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_payment_tokenmeta.table.gz (44/54/fopen): adding to final database dump
+0035.912 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmsib_model_forms.table.tmpr2.gz (45/54/fopen): adding to final database dump
+0035.913 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmsib_model_forms.table.gz (46/54/fopen): adding to final database dump
+0035.914 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmsib_model_users.table.tmpr0.gz (47/54/fopen): adding to final database dump
+0035.915 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmsib_model_users.table.gz (48/54/fopen): adding to final database dump
+0035.916 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_admin_note_actions.table.tmpr1133.gz (49/54/fopen): adding to final database dump
+0035.916 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_admin_note_actions.table.gz (50/54/fopen): adding to final database dump
+0035.917 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_admin_notes.table.tmpr72.gz (51/54/fopen): adding to final database dump
+0035.918 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_admin_notes.table.gz (52/54/fopen): adding to final database dump
+0035.919 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_customer_lookup.table.tmpr2.gz (53/54/fopen): adding to final database dump
+0035.920 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_customer_lookup.table.gz (54/54/fopen): adding to final database dump
+0035.921 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_download_log.table.tmpr0.gz (55/54/fopen): adding to final database dump
+0035.921 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_download_log.table.gz (56/54/fopen): adding to final database dump
+0035.922 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_etransactions_cards.table.tmpr19.gz (57/54/fopen): adding to final database dump
+0035.923 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_etransactions_cards.table.gz (58/54/fopen): adding to final database dump
+0035.923 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_etransactions_payment.table.tmpr0.gz (59/54/fopen): adding to final database dump
+0035.925 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_etransactions_payment.table.gz (60/54/fopen): adding to final database dump
+0035.927 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_addresses.table.tmpr13.gz (61/54/fopen): adding to final database dump
+0035.929 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_addresses.table.gz (62/54/fopen): adding to final database dump
+0035.930 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_coupon_lookup.table.tmpr1.gz (63/54/fopen): adding to final database dump
+0035.931 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_coupon_lookup.table.gz (64/54/fopen): adding to final database dump
+0035.931 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_operational_data.table.tmpr7.gz (65/54/fopen): adding to final database dump
+0035.932 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_operational_data.table.gz (66/54/fopen): adding to final database dump
+0035.932 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_product_lookup.table.tmpr43.gz (67/54/fopen): adding to final database dump
+0035.933 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_product_lookup.table.gz (68/54/fopen): adding to final database dump
+0035.934 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_stats.table.tmpr258.gz (69/54/fopen): adding to final database dump
+0035.935 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_stats.table.gz (70/54/fopen): adding to final database dump
+0035.935 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_tax_lookup.table.tmpr1001.gz (71/54/fopen): adding to final database dump
+0035.936 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_order_tax_lookup.table.gz (72/54/fopen): adding to final database dump
+0035.936 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_orders.table.tmpr258.gz (73/54/fopen): adding to final database dump
+0035.937 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_orders.table.gz (74/54/fopen): adding to final database dump
+0035.938 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_orders_meta.table.tmpr68.gz (75/54/fopen): adding to final database dump
+0035.940 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_orders_meta.table.gz (76/54/fopen): adding to final database dump
+0035.941 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_product_attributes_lookup.table.tmpr1.gz (77/54/fopen): adding to final database dump
+0035.943 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_product_attributes_lookup.table.gz (78/54/fopen): adding to final database dump
+0035.946 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_product_download_directories.table.tmpr3.gz (79/54/fopen): adding to final database dump
+0035.946 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_product_download_directories.table.gz (80/54/fopen): adding to final database dump
+0035.947 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_rate_limits.table.tmpr0.gz (81/54/fopen): adding to final database dump
+0035.948 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_rate_limits.table.gz (82/54/fopen): adding to final database dump
+0035.949 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_webhooks.table.tmpr0.gz (83/54/fopen): adding to final database dump
+0035.950 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwc_webhooks.table.gz (84/54/fopen): adding to final database dump
+0035.950 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_api_keys.table.tmpr0.gz (85/54/fopen): adding to final database dump
+0035.951 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_api_keys.table.gz (86/54/fopen): adding to final database dump
+0035.952 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_attribute_taxonomies.table.tmpr0.gz (87/54/fopen): adding to final database dump
+0035.952 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_attribute_taxonomies.table.gz (88/54/fopen): adding to final database dump
+0035.953 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_downloadable_product_permissions.table.tmpr0.gz (89/54/fopen): adding to final database dump
+0035.954 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_downloadable_product_permissions.table.gz (90/54/fopen): adding to final database dump
+0035.954 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_log.table.tmpr0.gz (91/54/fopen): adding to final database dump
+0035.955 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_log.table.gz (92/54/fopen): adding to final database dump
+0035.955 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_order_items.table.tmpr48.gz (93/54/fopen): adding to final database dump
+0035.956 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_order_items.table.gz (94/54/fopen): adding to final database dump
+0035.956 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_payment_tokens.table.tmpr0.gz (95/54/fopen): adding to final database dump
+0035.957 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_payment_tokens.table.gz (96/54/fopen): adding to final database dump
+0035.960 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_sessions.table.tmpr6.gz (97/54/fopen): adding to final database dump
+0035.962 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_sessions.table.gz (98/54/fopen): adding to final database dump
+0035.963 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_shipping_zone_locations.table.tmpr16.gz (99/54/fopen): adding to final database dump
+0035.965 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_shipping_zone_locations.table.gz (100/54/fopen): adding to final database dump
+0035.966 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_shipping_zone_methods.table.tmpr9.gz (101/54/fopen): adding to final database dump
+0035.967 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_shipping_zone_methods.table.gz (102/54/fopen): adding to final database dump
+0035.968 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_shipping_zones.table.tmpr3.gz (103/54/fopen): adding to final database dump
+0035.969 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_shipping_zones.table.gz (104/54/fopen): adding to final database dump
+0035.970 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_tax_rate_locations.table.tmpr0.gz (105/54/fopen): adding to final database dump
+0035.971 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_tax_rate_locations.table.gz (106/54/fopen): adding to final database dump
+0035.972 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_tax_rates.table.tmpr4.gz (107/54/fopen): adding to final database dump
+0035.972 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db-table-hy8tpafmwoocommerce_tax_rates.table.gz (108/54/fopen): adding to final database dump
+0035.991 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db.gz: finished writing out complete database file (366.9 KB)
+0036.113 (0) Total database tables backed up: 54 (backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db.gz, size: 375849, sha1: 7b21c733eaf516cafd792952d611b6d1a721c352, sha256: d8281170ea25bff1ee2d5fc7d7bfa4e1896819f9bbe45c49511958cee50566c3)
+0036.123 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-plugins.zip: plugins: This file has already been successfully uploaded
+0036.124 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-themes.zip: themes: This file has already been successfully uploaded
+0036.126 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-uploads.zip: uploads: This file has already been successfully uploaded
+0036.128 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-others.zip: others: This file has already been successfully uploaded
+0036.130 (0) backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0036.132 (0) Saving backup history. Total backup size: 85.1 MB
+0036.138 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0036.146 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0036.146 (0) No remote despatch: user chose no remote backup service
+0036.147 (0) Recording as successfully uploaded: backup_2024-01-31-1429_Petits_Chefs_Gourmands_2038533d0e8d-db.gz
+0036.149 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0036.150 (0) Number of backup sets in history: 3; groups (db): 1
+0036.151 (0) Examining (for databases) backup set with group_id=0, nonce=2038533d0e8d, datestamp=1706707744 (Jan 31 2024 13:29:04)
+0036.151 (0) This backup set is the backup set just made, so will not be deleted.
+0036.151 (0) Examining (for databases) backup set with group_id=0, nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0036.151 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.152 (0) Examining (for databases) backup set with group_id=0, nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0036.152 (0) 1706706435: db: this set includes a database (backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-db.gz); db count is now 2
+0036.152 (0) 1706706435: db: over retain limit (2); will delete this database
+0036.152 (0) Delete file: backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-db.gz, service=none
+0036.153 (0) Deleting local copy (backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-db.gz)
+0036.159 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0036.161 (0) Number of backup sets in history: 3; groups (files): 1
+0036.162 (0) Examining (for files) backup set with nonce=2038533d0e8d, datestamp=1706707744 (Jan 31 2024 13:29:04)
+0036.162 (0) This backup set is the backup set just made, so will not be deleted.
+0036.163 (0) This backup set is the backup set just made, so will not be deleted.
+0036.163 (0) This backup set is the backup set just made, so will not be deleted.
+0036.163 (0) This backup set is the backup set just made, so will not be deleted.
+0036.163 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.164 (0) Examining (for files) backup set with nonce=e3b56bf8042d, datestamp=1706707499 (Jan 31 2024 13:24:59)
+0036.164 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.164 (0) Examining (for files) backup set with nonce=1e6725a141a0, datestamp=1706706435 (Jan 31 2024 13:07:15)
+0036.164 (0) plugins: over retain limit (2); will delete this file entity
+0036.164 (0) themes: over retain limit (2); will delete this file entity
+0036.164 (0) uploads: over retain limit (2); will delete this file entity
+0036.164 (0) others: over retain limit (2); will delete this file entity
+0036.164 (0) Delete file: backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-plugins.zip, service=none
+0036.165 (0) Deleting local copy (backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-plugins.zip)
+0036.167 (0) Delete file: backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-themes.zip, service=none
+0036.168 (0) Deleting local copy (backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-themes.zip)
+0036.170 (0) Delete file: backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-uploads.zip, service=none
+0036.171 (0) Deleting local copy (backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-uploads.zip)
+0036.173 (0) Delete file: backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-others.zip, service=none
+0036.174 (0) Deleting local copy (backup_2024-01-31-1407_Petits_Chefs_Gourmands_1e6725a141a0-others.zip)
+0036.178 (0) This backup set is now empty; will remove from history
+0036.179 (0) Deleting log file (log.1e6725a141a0.txt)
+0036.181 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0036.184 (0) Resume backup (2038533d0e8d, 0): finish run
+0036.186 (0) Decremented the semaphore (fd) by 1
+0036.187 (0) Semaphore (fd) unlocked
+0036.188 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0036.191 (0) The backup succeeded and is now complete
+0036.193 (0) No email will/can be sent - the user has not configured an email address.
+0036.195 (0) La sauvegarde a réussi et est maintenant terminée
